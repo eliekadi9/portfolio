@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe Project</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="index.html" class="btn">← Back to Home</a>
+  </header>
+
+  <section class="project-details">
+    <h1 class="section-title">Predictive text dictionary</h1>
+    <h2>🧠 Project Overview</h2>
+    <p> This project was a uni subject task. There was a bit of souce code for a basic GUI and basic outline of souce code for the functions, but the predictive text dictionary did not work. To make this work I had to implement two methods called getMostFrequentWordWithPrefix() and readInDictionary() to make this predictive text dictionary functioning. Click the button 'Report' at the bottom of the page to see a written writeup of how these functions work and how they were implemented. 
+    </p>
+
+    <h2>💡 Implementations I changed to make this functioning and improve user interaction </h2>
+    <ul>
+      <li>• Improved different methods of code to make this predictive text dictionary functioning </li>
+      <li>• Improved the GUI to have a clear text button </li>
+      <li>• Improved the GUI to have a light and dark mode </li>
+    </ul>
+
+    <h2>🔧 How It Works</h2>
+<ul>
+  <li>• As the user types, each character triggers a prefix search in the trie.</li>
+  <li>• The trie is searched using Depth-First Search to find the most frequent matching word.</li>
+  <li>• If a suggestion is found, the remaining characters auto-complete the user's word.</li>
+  <li>• The user can press Enter to accept the suggestion or continue typing to refine it.</li>
+</ul>
+
+<a href="Predictive Text Dictionary.pdf" class="btn" target="_blank">Report</a>
+
+  </section>
+
+ 
+  <div class="video-wrapper">
+    <video controls width="330" height="150">
+      <source src="dictionary.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  
+</body>
+</html>
